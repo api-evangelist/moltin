@@ -1,0 +1,84 @@
+{
+    "name": "moltin",
+    "description": "<p><span>The comprehensive eCommerce API infrastructure for any platform. Moltin handles data storage and eCommerce logic in the cloud so that you can focus on creating great customer experiences.<\/span><\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/moltin-logo.png",
+    "tags": [
+        "commerce",
+        "have api",
+        "kiosk",
+        "relative data",
+        "service api",
+        "target"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/moltin\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Moltin",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/logos\/moltin-logo.png",
+            "humanURL": "https:\/\/moltin.com",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/moltin-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/moltin.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/moltin-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Base",
+            "url": "https:\/\/api.molt.in\/"
+        },
+        {
+            "type": "Blog",
+            "url": "https:\/\/molt.in\/blog"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/molt.in\/developers"
+        },
+        {
+            "type": "Documentation",
+            "url": "https:\/\/docs.moltin.com\/"
+        },
+        {
+            "type": "Email",
+            "url": "support@molt.in"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/moltin"
+        },
+        {
+            "type": "Pricing",
+            "url": "https:\/\/moltin.com\/pricing"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/moltin"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/moltin.com"
+        },
+        {
+            "type": "Website",
+            "url": "https:\/\/molt.in\/"
+        }
+    ]
+}

@@ -1,0 +1,5541 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "Moltin",
+        "description": "## Welcome\n\nThis is a place to put general notes and extra information, for internal use.\n\nTo get started designing\/documenting this API, select a version on the left.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.moltin.com\/"
+    ],
+    "paths": {
+        "\/v2\/customers\/{customerID}\/addresses\/{addressID}": {
+            "get": {
+                "summary": "Get an Address",
+                "description": "Get an address.",
+                "operationId": "V2CustomersAddressesByCustomerIDAndAddressIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update an Address",
+                "description": "Update an address.",
+                "operationId": "V2CustomersAddressesByCustomerIDAndAddressIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete an Address",
+                "description": "Delete an address.",
+                "operationId": "V2CustomersAddressesByCustomerIDAndAddressIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "addressID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/promotions\/{promotionID}\/codes": {
+            "get": {
+                "summary": "Get a list of promotion codes",
+                "description": "Get a list of promotion codes.",
+                "operationId": "V2PromotionsCodesByPromotionIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "promotionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create promotion codes",
+                "description": "Create promotion codes.",
+                "operationId": "V2PromotionsCodesByPromotionIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "promotionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/customers\/{customerID}\/addresses": {
+            "get": {
+                "summary": "Get an list of Addresses",
+                "description": "Get an list of addresses.",
+                "operationId": "V2CustomersAddressesByCustomerIDGet2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create an Address",
+                "description": "Create an address.",
+                "operationId": "V2CustomersAddressesByCustomerIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": "Change from default currency"
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "customerID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/integrations\/{integrationID}": {
+            "get": {
+                "summary": "Get an Integration",
+                "description": "Get an integration.",
+                "operationId": "V2IntegrationsByIntegrationIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "integrationID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update an Integration",
+                "description": "Update an integration.",
+                "operationId": "V2IntegrationsByIntegrationIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "integrationID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete an Integration",
+                "description": "Delete an integration.",
+                "operationId": "V2IntegrationsByIntegrationIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "integrationID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/brands\/{brandID}": {
+            "get": {
+                "summary": "Get a Brand",
+                "description": "Get a brand.",
+                "operationId": "V2BrandsByBrandIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "include",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "brandID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update a Brand",
+                "description": "Update a brand.",
+                "operationId": "V2BrandsByBrandIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "brandID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a Brand",
+                "description": "Delete a brand.",
+                "operationId": "V2BrandsByBrandIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "brandID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/flows": {
+            "get": {
+                "summary": "Get all flows",
+                "description": "Get all flows.",
+                "operationId": "V2FlowsGet2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a flow",
+                "description": "Create a flow.",
+                "operationId": "V2FlowsPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/customers\/{customerID}": {
+            "get": {
+                "summary": "Get a Customer",
+                "description": "Get a customer.",
+                "operationId": "V2CustomersByCustomerIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": "Change from default currency"
+                    },
+                    {
+                        "name": "customerID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update a Customer",
+                "description": "Update a customer.",
+                "operationId": "V2CustomersByCustomerIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": "Change from default currency"
+                    },
+                    {
+                        "name": "customerID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a Customer",
+                "description": "Deletes a customer.",
+                "operationId": "V2CustomersByCustomerIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "X",
+                        "in": "header",
+                        "description": "Change from default currency"
+                    },
+                    {
+                        "name": "customerID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/flows\/{flowSlug}\/entries\/{entryID}": {
+            "get": {
+                "summary": "Get an entry",
+                "description": "Get an entry.",
+                "operationId": "V2FlowsEntriesByFlowSlugAndEntryIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowSlug",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "entryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update an entry",
+                "description": "Update an entry.",
+                "operationId": "V2FlowsEntriesByFlowSlugAndEntryIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowSlug",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "entryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete an entry",
+                "description": "Delete an entry.",
+                "operationId": "V2FlowsEntriesByFlowSlugAndEntryIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowSlug",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "entryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/orders\/{orderID}": {
+            "get": {
+                "summary": "Get a single order",
+                "description": "Get a single order.",
+                "operationId": "V2OrdersByOrderIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "orderID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update an order",
+                "description": "Transactions are created and updated automatically whenever you make a payment request. When a payment is successful, the transaction ID returned from the gateway will be attached to the transaction.\n\nIt is possible for an order to have more than one transaction attached as each attempted payment will be created as a new transaction.",
+                "operationId": "V2OrdersByOrderIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "orderID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/products\/{productID}\/relationships\/variations": {
+            "put": {
+                "summary": "Update Product <=> Variations Relationships",
+                "description": "`Product Variation`'s specified in the payload willbe related to the `Product` any relatiosnhips to `Product Variation`'s **NOT** specified in payload will be removed.",
+                "operationId": "V2ProductsRelationshipsVariationsByProductIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create Product <=> Variations Relationships",
+                "description": "Here you can add and remove `Product Variation`'s to a product. `Product Variation`'s specified in the payload willbe related to the product.",
+                "operationId": "V2ProductsRelationshipsVariationsByProductIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Product <=> Variations Relationships",
+                "description": "Here you can add and remove `Product Variation`'s to a product. Only relationships to `Product Variation`'s specified in the payload will be removed.",
+                "operationId": "V2ProductsRelationshipsVariationsByProductIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/brands\/{brandID}\/relationships\/parent": {
+            "put": {
+                "summary": "Update Parent Brand Relationship",
+                "description": "Update parent brand relationship.",
+                "operationId": "V2BrandsRelationshipsParentByBrandIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "brandID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create Parent Brand Relationship",
+                "description": "Create parent brand relationship.",
+                "operationId": "V2BrandsRelationshipsParentByBrandIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "brandID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Parent Brand Relationship",
+                "description": "Delete parent brand relationship.",
+                "operationId": "V2BrandsRelationshipsParentByBrandIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "brandID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/promotions\/{promotionID}": {
+            "get": {
+                "summary": "Get a promotion",
+                "description": "Get a promotion.",
+                "operationId": "V2PromotionsByPromotionIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "promotionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update promotion",
+                "description": "Update promotion.",
+                "operationId": "V2PromotionsByPromotionIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "promotionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Promotion",
+                "description": "Delete promotion.",
+                "operationId": "V2PromotionsByPromotionIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "promotionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/carts\/{CART_REFERENCE} ": {
+            "delete": {
+                "summary": "Delete Cart",
+                "description": "Update an existing item in a cart. The updated cart contents are returned if the call is successful.\n\n**Note:** `{item_id}` in the path is the identifier for the item in the cart **OR** productID.\n\nWhen updating custom itesm you must use the identifier in the cart - you can update more properties of a custom cart item.",
+                "operationId": "V2CartsByCARTREFERENCEDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "CART_REFERENCE",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/settings": {
+            "get": {
+                "summary": "Get Settings Attributes",
+                "description": "Get settings attributes.",
+                "operationId": "V2SettingsGet2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update Settings",
+                "description": "Update settings.",
+                "operationId": "V2SettingsPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/categories\/{categoryID}": {
+            "get": {
+                "summary": "Get a Category",
+                "description": "Get a category.",
+                "operationId": "V2CategoriesByCategoryIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "categoryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update a Category",
+                "description": "Update a category.",
+                "operationId": "V2CategoriesByCategoryIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "categoryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a Category",
+                "description": "Delete a category.",
+                "operationId": "V2CategoriesByCategoryIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "categoryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/carts\/123456\/items": {
+            "get": {
+                "summary": "Get the items in a cart",
+                "description": "Get the items in a cart.",
+                "operationId": "V2Carts123456ItemsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Add a promotion to a cart",
+                "description": "Update an existing item in a cart. The updated cart contents are returned if the call is successful.\n\n**Note:** `{item_id}` in the path is the identifier for the item in the cart **OR** productID.\n\nWhen updating custom itesm you must use the identifier in the cart - you can update more properties of a custom cart item.",
+                "operationId": "V2Carts123456ItemsPost2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/products\/{productID}\/relationships\/files": {
+            "put": {
+                "summary": "Update Products <=> Files Relationships",
+                "description": "`File`'s specified in the payload willbe related to the product any relatiosnhips to `File`'s **NOT** specified in payload will be removed.",
+                "operationId": "V2ProductsRelationshipsFilesByProductIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create Products <=> Files Relationships",
+                "description": "Here you can add `File`'s to a product. `File`'s specified in the payload willbe related to the product.",
+                "operationId": "V2ProductsRelationshipsFilesByProductIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Products <=> Files Relationship",
+                "description": "Here you can delete a relationship between a `Product` and `File`'s. Only relationships to `File`'s specified in the payload will be removed.",
+                "operationId": "V2ProductsRelationshipsFilesByProductIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/integrations\/attributes": {
+            "get": {
+                "summary": "Get Integration Attributes",
+                "description": "Get integration attributes.",
+                "operationId": "V2IntegrationsAttributesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/gateways\/braintree": {
+            "put": {
+                "summary": "Braintree - Update",
+                "description": "This endpoint allows you to pay for an order using Braintree and a users credit card.",
+                "operationId": "V2GatewaysBraintreePut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/collections\/{collectionID}\/relationships\/collections": {
+            "post": {
+                "summary": "Create Collection Relationships",
+                "description": "Create collection relationships.",
+                "operationId": "V2CollectionsRelationshipsCollectionsByCollectionIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/integrations\/{integrationID}\/logs": {
+            "get": {
+                "summary": "Get Logs for an Integration",
+                "description": "Get logs for an integration.",
+                "operationId": "V2IntegrationsLogsByIntegrationIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "integrationID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/categories\/{categoryID}\/relationships\/children": {
+            "put": {
+                "summary": "Update Child Category Relationships",
+                "description": "Update child category relationships.",
+                "operationId": "V2CategoriesRelationshipsChildrenByCategoryIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "categoryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Child Category Relationships",
+                "description": "Delete child category relationships.",
+                "operationId": "V2CategoriesRelationshipsChildrenByCategoryIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "categoryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/collections": {
+            "get": {
+                "summary": "Get Collections List",
+                "description": "Get collections list.",
+                "operationId": "V2CollectionsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a Collection",
+                "description": "Create a collection.",
+                "operationId": "V2CollectionsPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/categories\/{categoryID}\/relationships\/children": {
+            "post": {
+                "summary": "Create Child Category Relationships",
+                "description": "Create child category relationships.",
+                "operationId": "CategoriesRelationshipsChildrenByCategoryIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "categoryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/carts\/123456": {
+            "get": {
+                "summary": "Get a Cart",
+                "description": "Get a cart.",
+                "operationId": "V2Carts123456Get",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/collections\/{collectionID}": {
+            "get": {
+                "summary": "Get a Collection",
+                "description": "Get a collection.",
+                "operationId": "V2CollectionsByCollectionIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "page[offset]",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "page[limit]",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "sort",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "include",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update a Collection",
+                "description": "Update a collection.",
+                "operationId": "V2CollectionsByCollectionIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a Collection",
+                "description": "Delete a collection.",
+                "operationId": "V2CollectionsByCollectionIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/inventories ": {
+            "get": {
+                "summary": "Get all stock",
+                "description": "Get all stock.",
+                "operationId": "V2InventoriesGet",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/v2\/flows\/{flowID}": {
+            "get": {
+                "summary": "Get a flow",
+                "description": "Get a flow.",
+                "operationId": "V2FlowsByFlowIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update a flow",
+                "description": "Update a flow.",
+                "operationId": "V2FlowsByFlowIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a flow",
+                "description": "Delete a flow.",
+                "operationId": "V2FlowsByFlowIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/gateways\/adyen": {
+            "put": {
+                "summary": "Adyen - Card Update",
+                "description": "This endpoint allows you to pay for an order using Braintree and a users credit card.",
+                "operationId": "V2GatewaysAdyenPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/carts\/123456\/items\/{itemID}": {
+            "put": {
+                "summary": "Update an item in a cart",
+                "description": "Update an existing item in a cart. The updated cart contents are returned if the call is successful.\n\n**Note:** `{item_id}` in the path is the identifier for the item in the cart **OR** productID.\n\nWhen updating custom itesm you must use the identifier in the cart - you can update more properties of a custom cart item.",
+                "operationId": "V2Carts123456ItemsByItemIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "itemID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/flows\/{flowSlug}\/entries\/{ENTRY_ID}\/relationships\/{flowSlug}": {
+            "put": {
+                "summary": "Update Entry Relationship(s)",
+                "description": "Update entry relationship(s).",
+                "operationId": "V2FlowsEntriesRelationshipsFlowSlugByFlowSlugAndENTRYIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowSlug",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "ENTRY_ID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Entry Relationship(s)",
+                "description": "Delete entry relationship(s).",
+                "operationId": "V2FlowsEntriesRelationshipsFlowSlugByFlowSlugAndENTRYIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowSlug",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "ENTRY_ID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/inventories\/{productID}\/transactions": {
+            "get": {
+                "summary": "Stock transactions for a product",
+                "description": "Stock transactions for a product.",
+                "operationId": "V2InventoriesTransactionsByProductIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a stock transaction for a product",
+                "description": "Create a stock transaction for a product.",
+                "operationId": "V2InventoriesTransactionsByProductIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/products\/{productID}": {
+            "get": {
+                "summary": "Get a Product",
+                "description": "Get a product.",
+                "operationId": "V2ProductsByProductIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update a Product",
+                "description": "Update a product.",
+                "operationId": "V2ProductsByProductIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a Product",
+                "description": "Delete a product.",
+                "operationId": "V2ProductsByProductIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/products\/{productID}\/relationships\/brands": {
+            "put": {
+                "summary": "Update Product <=> Brands Relationships",
+                "description": "Here you can set relations `Brand`'s to a product. The result of this request will set relationships between product and the specified brnads in teh payload and remove any other relations the product had with brands.",
+                "operationId": "V2ProductsRelationshipsBrandsByProductIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create Product <=> Brands Relationships",
+                "description": "Here you can add `Brand`'s to a product. The `Brand`'s found in the payload will be added to any other relationships to `Brand`'s present.",
+                "operationId": "V2ProductsRelationshipsBrandsByProductIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Products <=> Brands Relationships",
+                "description": "Here you can delete a relationship between a `Product` and `Brand`'s. Only those relationshops to `Brand`'s specified in the paylaod will be removed.",
+                "operationId": "V2ProductsRelationshipsBrandsByProductIDDelete2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/files\/{fileID}": {
+            "get": {
+                "summary": "Get a file",
+                "description": "Get a file.",
+                "operationId": "V2FilesByFileIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "fileID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a file",
+                "description": "Delete a file.",
+                "operationId": "V2FilesByFileIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "fileID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/fields": {
+            "get": {
+                "summary": "Get a field list",
+                "description": "Get a field list.",
+                "operationId": "V2FieldsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a field",
+                "description": "Create a field.",
+                "operationId": "V2FieldsPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/brands\/{brandID}\/relationships\/children": {
+            "put": {
+                "summary": "Update Child Brand Relationship",
+                "description": "Update child brand relationship.",
+                "operationId": "V2BrandsRelationshipsChildrenByBrandIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "brandID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create Child Brand Relationship",
+                "description": "Create child brand relationship.",
+                "operationId": "V2BrandsRelationshipsChildrenByBrandIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "brandID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Update Child Brand Relationship Copy",
+                "description": "Update child brand relationship copy.",
+                "operationId": "V2BrandsRelationshipsChildrenByBrandIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "brandID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/collections\/{collectionID}\/relationships\/parent": {
+            "put": {
+                "summary": "Update Parent Collection Relationship",
+                "description": "Update parent collection relationship.",
+                "operationId": "V2CollectionsRelationshipsParentByCollectionIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create Parent Collection Relationship",
+                "description": "Create parent collection relationship.",
+                "operationId": "V2CollectionsRelationshipsParentByCollectionIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Parent Collection Relationship",
+                "description": "Delete parent collection relationship.",
+                "operationId": "V2CollectionsRelationshipsParentByCollectionIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/variations\/{variationID}": {
+            "get": {
+                "summary": "Get a Product Variation",
+                "description": "Get a product variation.",
+                "operationId": "V2VariationsByVariationIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "variationID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update a Product Variation",
+                "description": "Update a product variation.",
+                "operationId": "V2VariationsByVariationIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "variationID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a Product Variation",
+                "description": "Delete a product variation.",
+                "operationId": "V2VariationsByVariationIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "variationID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/customers": {
+            "get": {
+                "summary": "Get Customers List",
+                "description": "Get customers list.",
+                "operationId": "V2CustomersGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "page[offset]",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "page[limit]",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "sort",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a Customer",
+                "description": "Create a customer.",
+                "operationId": "V2CustomersPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/products\/{productID}\/build": {
+            "post": {
+                "summary": "Build Child Products",
+                "description": "Build child products.",
+                "operationId": "V2ProductsBuildByProductIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/oauth\/access_token": {
+            "post": {
+                "summary": "Client credential token",
+                "description": "An access token will allow you to make requests for your store. We support two types of token: `client_credentials` and `implicit`.\n\nAn `implcit` token is typically used for situations where you are requesting data on the client side and you are exposing your public key - such as JavaScript - and adding your client secret would be disastrous. You will only be able to perform a limited number of operations on the API endpoints.\n\nA `client_credentials` token is used when the credentials are not pu",
+                "operationId": "OauthAccessTokenPost2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "client_id",
+                        "in": "formData",
+                        "description": "Replace with the values from your dashboard"
+                    },
+                    {
+                        "name": "client_secret",
+                        "in": "formData",
+                        "description": "Replace with the values from your dashboard"
+                    },
+                    {
+                        "name": "grant_type",
+                        "in": "formData",
+                        "description": "client_credentials | implicit | refresh_token"
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/collections\/tree": {
+            "get": {
+                "summary": "Get Collection tree",
+                "description": "Get collection tree.",
+                "operationId": "V2CollectionsTreeGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/products\/{ProductID}relationships\/brands": {
+            "post": {
+                "summary": "Create Products <=> Main Image Relationships",
+                "description": "Here you can add a `Main Image` to a product. The `Main Image` will be a file and that file will be shown as the first image for the product it is related to.\n\nIt's worth noting that you can only have 1 main image so unlike other relationships, you will be passing an object instead of an array in the body.\n\nIn the Object, the type will be `main_image` and the ID will be the ID of the file you wish to make the main image for that product.",
+                "operationId": "V2ProductsRelationshipsBrandsByProductIDPost2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Products <=> Main Image Relationships",
+                "description": "Here you can delete the `Main Image` from a product.\n\nIn the Object payload, the type will be `main_image` and the ID will be the ID of the main image you wish to delete from that product.",
+                "operationId": "V2ProductsRelationshipsBrandsByProductIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/flows\/{flowSlug}\/entries": {
+            "get": {
+                "summary": "Get all entries on a flow",
+                "description": "Get all entries on a flow.",
+                "operationId": "V2FlowsEntriesByFlowSlugGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowSlug",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create an entry",
+                "description": "Create an entry.",
+                "operationId": "V2FlowsEntriesByFlowSlugPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowSlug",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/fields\/{fieldID}": {
+            "get": {
+                "summary": "Get a field",
+                "description": "Get a field.",
+                "operationId": "V2FieldsByFieldIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "fieldID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update a field",
+                "description": "Update a field.",
+                "operationId": "V2FieldsByFieldIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "fieldID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a field",
+                "description": "Delete a field.",
+                "operationId": "V2FieldsByFieldIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "fieldID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/carts\/123456\/checkout": {
+            "post": {
+                "summary": "Checkout using customer id",
+                "description": "Converts a cart to an incomplete order. The original cart will remain and can be modified and checked out again if required.\n\nThe new order will be returned and `data.meta.payment_gateways` will contain an array of the available payment gateways for this order.",
+                "operationId": "V2Carts123456CheckoutPost2",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/products\/{productID}\/relationships\/categories": {
+            "put": {
+                "summary": "Update Product <=> Categories Relationships",
+                "description": "Here you can update `Categories` to a product. `Categories` specified in the payload willbe related to the product any relatiosnhips to `Categories` **NOT** specified in payload will be removed.",
+                "operationId": "V2ProductsRelationshipsCategoriesByProductIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create Product <=> Categories Relationships",
+                "description": "Here you can add `Categories` to a product. `Categories` specified in the payload willbe related to the product.",
+                "operationId": "V2ProductsRelationshipsCategoriesByProductIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Product <=> Categories Relationships",
+                "description": "Here you can delete a relationship between a `Product` and `Category`. Only relationships to `Categories` specified in the payload will be removed.",
+                "operationId": "V2ProductsRelationshipsCategoriesByProductIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/variations": {
+            "get": {
+                "summary": "Get Product Variations List",
+                "description": "Get product variations list.",
+                "operationId": "V2VariationsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a Product Variation",
+                "description": "Create a product variation.",
+                "operationId": "V2VariationsPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/brands\/tree": {
+            "get": {
+                "summary": "Get a Brand tree",
+                "description": "Get a brand tree.",
+                "operationId": "V2BrandsTreeGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/flows\/{flowSlug}\/fields": {
+            "get": {
+                "summary": "Get all fields on a flow",
+                "description": "Get all fields on a flow.",
+                "operationId": "V2FlowsFieldsByFlowSlugGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowSlug",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/currencies": {
+            "get": {
+                "summary": "Get Currencies List",
+                "description": "Get currencies list.",
+                "operationId": "V2CurrenciesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a Currency",
+                "description": "Create a currency.",
+                "operationId": "V2CurrenciesPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/products\/{productID}\/relationships\/collections": {
+            "put": {
+                "summary": "Update Products <=> Collections Relationships",
+                "description": "`Collection`'s specified in the payload willbe related to the product any relatiosnhips to `Collection`'s **NOT** specified in payload will be removed.",
+                "operationId": "V2ProductsRelationshipsCollectionsByProductIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create Products <=> Collections Relationships",
+                "description": "Here you can add `Collection`'s to a product. `Collection`'s specified in the payload willbe related to the product.",
+                "operationId": "V2ProductsRelationshipsCollectionsByProductIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Products <=> Collections Relationships",
+                "description": "Here you can delete a relationship between a `Product` and `Collections`. Only relationships to `Collections` specified in the payload will be removed.",
+                "operationId": "V2ProductsRelationshipsCollectionsByProductIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/currencies\/{currencyID}": {
+            "get": {
+                "summary": "Get a Currency",
+                "description": "Get a currency.",
+                "operationId": "V2CurrenciesByCurrencyIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "currencyID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Update a Currency",
+                "description": "Update a currency.",
+                "operationId": "V2CurrenciesByCurrencyIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "currencyID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a Currency",
+                "description": "Delete a currency.",
+                "operationId": "V2CurrenciesByCurrencyIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "currencyID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/variations\/{variationID}\/options\/{optionID}": {
+            "put": {
+                "summary": "Update a Product Variation Option",
+                "description": "Update a product variation option.",
+                "operationId": "V2VariationsOptionsByVariationIDAndOptionIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "variationID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "optionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete a Product Variation Option",
+                "description": "Delete a product variation option.",
+                "operationId": "V2VariationsOptionsByVariationIDAndOptionIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "variationID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "optionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/categories\/{parentCatID}\/relationships\/parent": {
+            "put": {
+                "summary": "Update Parent Category Parent",
+                "description": "Update parent category parent.",
+                "operationId": "V2CategoriesRelationshipsParentByParentCatIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "parentCatID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/gateways": {
+            "get": {
+                "summary": "Get a list of gateways",
+                "description": "This endpoint allows you to pay for an order using Braintree and a users credit card.",
+                "operationId": "V2GatewaysGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/variations\/{variationID}\/options\/{optionID}\/modifiers\/{modifierID}": {
+            "put": {
+                "summary": "Update Product Modifier",
+                "description": "Update product modifier.",
+                "operationId": "V2VariationsOptionsModifiersModifierIDByVariationIDAndOptionIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "variationID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "optionID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "modifierID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Product Modifier",
+                "description": "Delete product modifier.",
+                "operationId": "V2VariationsOptionsModifiersModifierIDByVariationIDAndOptionIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "variationID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "optionID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "modifierID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/categories\/{categoryID}\/relationships\/categories": {
+            "delete": {
+                "summary": "Delete Category-Category Relationships",
+                "description": "Delete category-category relationships.",
+                "operationId": "CategoriesRelationshipsCategoriesByCategoryIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "categoryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/variations\/{variationID}\/options\/{optionID}\/modifiers": {
+            "post": {
+                "summary": "Create Product Modifier",
+                "description": "Create product modifier.",
+                "operationId": "V2VariationsOptionsModifiersByVariationIDAndOptionIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "variationID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "optionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/brands\/attributes": {
+            "get": {
+                "summary": "Get Brand Attributes",
+                "description": "Get brand attributes.",
+                "operationId": "V2BrandsAttributesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/gateways\/stripe": {
+            "get": {
+                "summary": "Get a gateway (stripe)",
+                "description": "This endpoint allows you to pay for an order using Braintree and a users credit card.",
+                "operationId": "V2GatewaysStripeGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/collections\/{collectionID}\/relationships\/children": {
+            "put": {
+                "summary": "Update Child Collection Relationship",
+                "description": "Update child collection relationship.",
+                "operationId": "V2CollectionsRelationshipsChildrenByCollectionIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create Child Collection Relationships",
+                "description": "Create child collection relationships.",
+                "operationId": "V2CollectionsRelationshipsChildrenByCollectionIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            },
+            "delete": {
+                "summary": "Delete Child Collection Relationship",
+                "description": "Delete child collection relationship.",
+                "operationId": "V2CollectionsRelationshipsChildrenByCollectionIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "collectionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/categories\/{categoryID}\/relationships\/categories": {
+            "post": {
+                "summary": "Create Parent Category Relationship",
+                "description": "Using this endpoint you can create a relationship between a category and a parent category. When returning the category tree, you will see this relationship in place.",
+                "operationId": "V2CategoriesRelationshipsCategoriesByCategoryIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "categoryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/carts\/123456\/items\/{cartItemID}": {
+            "delete": {
+                "summary": "Delete an item from a cart",
+                "description": "Delete an item from a cart. The remaining cart contents are returned on a successful delete.\n\n**Note:** `{item_id}` in the path is the identifier for the item in the cart rather than the product_id",
+                "operationId": "V2Carts123456ItemsByCartItemIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "cartItemID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/orders\/{orderID}\/items": {
+            "get": {
+                "summary": "Get Order Items",
+                "description": "Get order items.",
+                "operationId": "OrdersItemsByOrderIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "orderID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/inventories\/{productID}": {
+            "get": {
+                "summary": "Get stock for a product",
+                "description": "Get stock for a product.",
+                "operationId": "V2InventoriesByProductIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "productID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/integrations\/{integrationID}\/jobs": {
+            "get": {
+                "summary": "Get all Jobs for an Integration",
+                "description": "Get all jobs for an integration.",
+                "operationId": "V2IntegrationsJobsByIntegrationIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "integrationID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/integrations\/{integrationID}\/jobs\/{integrationJobID}\/logs": {
+            "get": {
+                "summary": "Get Logs for a Job",
+                "description": "Get logs for a job.",
+                "operationId": "V2IntegrationsJobsLogsByIntegrationIDAndIntegrationJobIDGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "integrationID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "integrationJobID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/integrations": {
+            "get": {
+                "summary": "Get Integrations list",
+                "description": "Get integrations list.",
+                "operationId": "V2IntegrationsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create an Integration",
+                "description": "Create an integration.",
+                "operationId": "V2IntegrationsPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/orders\/{orderID}\/transactions\/{TransactionID}\/capture": {
+            "post": {
+                "summary": "Capture an authorize",
+                "description": "Capture an authorize.",
+                "operationId": "V2OrdersTransactionsCaptureByOrderIDAndTransactionIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "orderID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "TransactionID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/categories\/attributes": {
+            "get": {
+                "summary": "Get Category Attributes",
+                "description": "Get category attributes.",
+                "operationId": "CategoriesAttributesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/products\/attributes": {
+            "get": {
+                "summary": "Get Product Attributes",
+                "description": "Get product attributes.",
+                "operationId": "V2ProductsAttributesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/orders\/{ORDER_ID}\/transactions\/{TRANSACTION_ID}\/capture": {
+            "put": {
+                "summary": "Stripe - Card Update",
+                "description": "This endpoint allows you to pay for an order using Braintree and a users credit card.",
+                "operationId": "V2OrdersTransactionsCaptureByORDERIDAndTRANSACTIONIDPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "ORDER_ID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "TRANSACTION_ID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/categories\/{categoryID}\/relationships\/parent": {
+            "delete": {
+                "summary": "Delete Parent Category Parent",
+                "description": "Delete parent category parent.",
+                "operationId": "V2CategoriesRelationshipsParentByCategoryIDDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "categoryID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/files": {
+            "get": {
+                "summary": "Get all files",
+                "description": "Get all files.",
+                "operationId": "V2FilesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "page[offset]",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "page[limit]",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "sort",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a file",
+                "description": "Create a file.",
+                "operationId": "V2FilesPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/categories": {
+            "get": {
+                "summary": "Get Categories List",
+                "description": "Get categories list.",
+                "operationId": "V2CategoriesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a Category",
+                "description": "Create a category.",
+                "operationId": "V2CategoriesPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/categories\/categories\/tree": {
+            "get": {
+                "summary": "Category Tree",
+                "description": "Category tree.",
+                "operationId": "V2CategoriesCategoriesTreeGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/carts\/{cartRef}": {
+            "delete": {
+                "summary": "Delete a Cart",
+                "description": "Removes all items in a cart.",
+                "operationId": "CartsByCartRefDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "cartRef",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/integrations\/logs": {
+            "get": {
+                "summary": "Get all Logs",
+                "description": "Get all logs.",
+                "operationId": "V2IntegrationsLogsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/brands": {
+            "get": {
+                "summary": "Get a list of Brands",
+                "description": "Get a list of brands.",
+                "operationId": "V2BrandsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a Brand",
+                "description": "Create a brand.",
+                "operationId": "V2BrandsPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/promotions": {
+            "get": {
+                "summary": "Get a list of promotions",
+                "description": "Get a list of promotions.",
+                "operationId": "V2PromotionsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a promotion",
+                "description": "Create a promotion.",
+                "operationId": "V2PromotionsPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/customers\/tokens ": {
+            "post": {
+                "summary": "Generate a customer token",
+                "description": "Generate a customer token.",
+                "operationId": "V2CustomersTokensPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/brands\/{brandID}\/relationships\/brands": {
+            "post": {
+                "summary": "Create Brand Relationships",
+                "description": "Create brand relationships.",
+                "operationId": "V2BrandsRelationshipsBrandsByBrandIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "brandID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/products": {
+            "get": {
+                "summary": "Get Products List",
+                "description": "Get products list.",
+                "operationId": "V2ProductsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "page[offset]",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "page[limit]",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "sort",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "filter",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "include",
+                        "in": "query",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Create a new Product",
+                "description": "Create a new product.",
+                "operationId": "V2ProductsPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/flows\/{flowSlug}\/entries\/{entryID}\/relationships\/{fieldSlug}": {
+            "post": {
+                "summary": "Create Entry Relationship(s)",
+                "description": "Create entry relationship(s).",
+                "operationId": "V2FlowsEntriesRelationshipsFieldSlugByFlowSlugAndEntryIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "flowSlug",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "entryID",
+                        "in": "path",
+                        "description": ""
+                    },
+                    {
+                        "name": "fieldSlug",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/categories\/tree": {
+            "get": {
+                "summary": "Get Categories Tree",
+                "description": "Get categories tree.",
+                "operationId": "V2CategoriesTreeGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/variations\/{variationID}\/options": {
+            "post": {
+                "summary": "Create a Product Variation Option",
+                "description": "Create a product variation option.",
+                "operationId": "V2VariationsOptionsByVariationIDPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "variationID",
+                        "in": "path",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/v2\/orders": {
+            "get": {
+                "summary": "Get all orders",
+                "description": "Get all orders.",
+                "operationId": "V2OrdersGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Accept",
+                        "in": "header",
+                        "description": ""
+                    },
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "CreatePromotionCodesrequest": {
+                "type": "object"
+            },
+            "Data": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "codes": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Code": {
+                "type": "object",
+                "properties": {
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateAnIntegrationrequest": {
+                "type": "object"
+            },
+            "Data4": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "integration_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "observes": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateACustomerrequest": {
+                "type": "object"
+            },
+            "Data6": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateParentBrandRelationshiprequest": {
+                "type": "object"
+            },
+            "Data8": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdatePromotionrequest": {
+                "type": "object"
+            },
+            "Data10": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "promotion_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "start": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "end": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Schema": {
+                "type": "object",
+                "properties": {
+                    "currencies": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Currency": {
+                "type": "object",
+                "properties": {
+                    "currency": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "amount": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "AddAnItemToACartrequest": {
+                "type": "object"
+            },
+            "Data14": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateProducts<=>FilesRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Braintree  updaterequest": {
+                "type": "object"
+            },
+            "Data18": {
+                "type": "object",
+                "properties": {
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "environment": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "merchant_id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "private_key": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "public_key": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateCollectionRelationshipsrequest": {
+                "type": "object"
+            },
+            "Data20": {
+                "type": "object",
+                "properties": {
+                    "children": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Parent": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Child": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "DeleteProducts<=>FilesRelationshiprequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "DeleteChildCategoryRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateACollectionrequest": {
+                "type": "object"
+            },
+            "Data28": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "slug": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateChildCategoryRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateABrandrequest": {
+                "type": "object"
+            },
+            "Data32": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "slug": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateAnEntryrequest": {
+                "type": "object"
+            },
+            "Data34": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "field_one": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "field_two": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateAnAddressrequest": {
+                "type": "object"
+            },
+            "Data36": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "first_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "phone_number": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "instructions": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "company_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "line_1": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "line_2": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "county": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "postcode": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Adyen  card updaterequest": {
+                "type": "object"
+            },
+            "Data38": {
+                "type": "object",
+                "properties": {
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "merchant_account": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "test": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "username": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateParentBrandRelationshiprequest": {
+                "type": "object"
+            },
+            "UpdateAnItemInACartrequest": {
+                "type": "object"
+            },
+            "UpdateEntryRelationship(s)request": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateAStockTransactionForAProductrequest": {
+                "type": "object"
+            },
+            "Data46": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "action": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "quantity": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Create categoryCategory relationshipsrequest": {
+                "type": "object"
+            },
+            "CreateProduct<=>BrandsRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateChildBrandRelationshiprequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateAProductVariationrequest": {
+                "type": "object"
+            },
+            "Data56": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateACustomerrequest": {
+                "type": "object"
+            },
+            "Data58": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateSettingsrequest": {
+                "type": "object"
+            },
+            "Data60": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "page_length": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "list_child_products": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "additional_languages": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateProducts<=>MainImageRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateAnEntryrequest": {
+                "type": "object"
+            },
+            "Data64": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "{FIELD_SLUG}": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CheckoutUsingCustomerObjectrequest": {
+                "type": "object"
+            },
+            "Data66": {
+                "type": "object"
+            },
+            "Customer": {
+                "type": "object",
+                "properties": {
+                    "email": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "BillingAddress": {
+                "type": "object",
+                "properties": {
+                    "first_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "company_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "line_1": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "line_2": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "postcode": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "county": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ShippingAddress": {
+                "type": "object",
+                "properties": {
+                    "first_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "last_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "company_name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "phone_number": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "line_1": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "line_2": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "city": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "postcode": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "county": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "country": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "instructions": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "DeleteProduct<=>CategoriesRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateParentCollectionRelationshiprequest": {
+                "type": "object"
+            },
+            "UpdateACategoryrequest": {
+                "type": "object"
+            },
+            "CreateACurrencyrequest": {
+                "type": "object"
+            },
+            "Data77": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "code": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "exchange_rate": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "format": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "decimal_point": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "thousand_separator": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "decimal_places": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "default": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "DeleteProducts<=>CollectionsRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateACurrencyrequest": {
+                "type": "object"
+            },
+            "Data81": {
+                "type": "object",
+                "properties": {
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateAProductVariationOptionrequest": {
+                "type": "object"
+            },
+            "Data83": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateProduct<=>CategoriesRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateChildCategoryRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateParentCategoryParentrequest": {
+                "type": "object"
+            },
+            "UpdateProductModifierrequest": {
+                "type": "object"
+            },
+            "Data91": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "modifer_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Delete categoryCategory relationshipsrequest": {
+                "type": "object"
+            },
+            "UpdateProducts<=>CollectionsRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateProducts<=>CollectionsRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CheckoutUsingCustomerIdrequest": {
+                "type": "object"
+            },
+            "Data101": {
+                "type": "object"
+            },
+            "Customer102": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateProductModifierrequest": {
+                "type": "object"
+            },
+            "Data106": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "modifier_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "value": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateChildCollectionRelationshiprequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateParentCategoryRelationshiprequest": {
+                "type": "object"
+            },
+            "CreateChildBrandRelationshiprequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateAFlowrequest": {
+                "type": "object"
+            },
+            "Data114": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateAFlowrequest": {
+                "type": "object"
+            },
+            "Data116": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "slug": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateAFieldrequest": {
+                "type": "object"
+            },
+            "Data118": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "field_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "slug": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "required": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "unique": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "default": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "BuildChildProductsrequest": {
+                "type": "object"
+            },
+            "Data120": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateProducts<=>FilesRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateACollectionrequest": {
+                "type": "object"
+            },
+            "Stripe  card updaterequest": {
+                "type": "object"
+            },
+            "Data126": {
+                "type": "object",
+                "properties": {
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "login": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateChildCollectionRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateParentCollectionRelationshiprequest": {
+                "type": "object"
+            },
+            "UpdateAProductrequest": {
+                "type": "object"
+            },
+            "Data132": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "id": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "slug": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "sku": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "manage_stock": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "commodity_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "price": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Price": {
+                "type": "object",
+                "properties": {
+                    "amount": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "currency": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "includes_tax": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateAFieldrequest": {
+                "type": "object"
+            },
+            "Data135": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "slug": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "field_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "validation_rules": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "required": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "unique": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "default": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "order": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ValidationRule": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Options": {
+                "type": "object",
+                "properties": {
+                    "from": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "to": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Relationships": {
+                "type": "object"
+            },
+            "Flow": {
+                "type": "object"
+            },
+            "CreateACategoryrequest": {
+                "type": "object"
+            },
+            "CreateAProductVariationrequest": {
+                "type": "object"
+            },
+            "DeleteEntryRelationship(s)request": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateABrandrequest": {
+                "type": "object"
+            },
+            "CreateAPromotionrequest": {
+                "type": "object"
+            },
+            "Data150": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "promotion_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "start": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "end": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateProduct<=>BrandsRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "GenerateACustomerTokenrequest": {
+                "type": "object"
+            },
+            "Data156": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "email": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "password": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateBrandRelationshipsrequest": {
+                "type": "object"
+            },
+            "CreateAnIntegrationrequest": {
+                "type": "object"
+            },
+            "Data162": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "integration_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "enabled": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "observes": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Configuration": {
+                "type": "object",
+                "properties": {
+                    "url": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "secret_key": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "DeleteProducts<=>BrandsRelationshipsrequest": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateANewProductrequest": {
+                "type": "object"
+            },
+            "Data167": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "slug": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "sku": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "manage_stock": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "commodity_type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "price": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "CreateEntryRelationship(s)request": {
+                "type": "object",
+                "properties": {
+                    "data": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "DeletePromotionrequest": {
+                "type": "object"
+            },
+            "CreateAProductVariationOptionrequest": {
+                "type": "object"
+            },
+            "Data176": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "name": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "description": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "UpdateAnOrderrequest": {
+                "type": "object"
+            },
+            "Data178": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "ShippingAddress179": {
+                "type": "object",
+                "properties": {
+                    "first_name": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            }
+        }
+    }
+}

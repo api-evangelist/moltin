@@ -1,5 +1,5 @@
 {
-    "id": "3d60f3cdb3f9ffa785503413c89b64b6",
+    "id": "0f89f90be351f6feeca59a49dda8e0e8",
     "name": "Moltin",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "2f6b3f82206988d0802da001b7b7f7fc",
+            "id": "26fc0fb318664197cb8f07e9ff7e5930",
             "name": "Get an Address",
             "url": "httpsapi.moltin.com\/\/v2\/customers\/{customerID}\/addresses\/{addressID}",
             "description": "Get an address.",
@@ -58,11 +58,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "23ccb0b00c6e0dffd89612664d9fbd62",
+            "id": "61e8523488eb9f9a5519452f79257940",
             "name": "Update an Address",
             "url": "httpsapi.moltin.com\/\/v2\/customers\/{customerID}\/addresses\/{addressID}",
             "description": "Update an address.",
@@ -110,11 +110,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "9741a7414e880e920998c874aef98269",
+            "id": "fb703c8a4374b86da11afeff7d122a39",
             "name": "Delete an Address",
             "url": "httpsapi.moltin.com\/\/v2\/customers\/{customerID}\/addresses\/{addressID}",
             "description": "Delete an address.",
@@ -162,11 +162,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "f9dcead329603f72bfe8d2554b2d939b",
+            "id": "5a69c741c109a7f7dba4f59642998983",
             "name": "Get a list of promotion codes",
             "url": "httpsapi.moltin.com\/\/v2\/promotions\/{promotionID}\/codes",
             "description": "Get a list of promotion codes.",
@@ -200,11 +200,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "9d8c15e3b404f3da6150da7a7e51d387",
+            "id": "3e6da71796d63934366919faaa7c52b6",
             "name": "Create promotion codes",
             "url": "httpsapi.moltin.com\/\/v2\/promotions\/{promotionID}\/codes",
             "description": "Create promotion codes.",
@@ -245,11 +245,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "cf46b9f2a2fa667fa1b68096206ba9c5",
+            "id": "77db10e217bb8c6d4eeaff41c3cd4d48",
             "name": "Get an list of Addresses",
             "url": "httpsapi.moltin.com\/\/v2\/customers\/{customerID}\/addresses",
             "description": "Get an list of addresses.",
@@ -290,11 +290,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "fee91327838164a45217a907b14ab7c9",
+            "id": "8ddd9f0202a589262971e24f266b3c5e",
             "name": "Create an Address",
             "url": "httpsapi.moltin.com\/\/v2\/customers\/{customerID}\/addresses",
             "description": "Create an address.",
@@ -349,11 +349,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "2ed7391fd0b2eee592a78eacc9924f74",
+            "id": "92eb28c58929bd59027f69d43f3156c8",
             "name": "Get an Integration",
             "url": "httpsapi.moltin.com\/\/v2\/integrations\/{integrationID}",
             "description": "Get an integration.",
@@ -394,11 +394,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "1075dfe8e368a772e4974191d5a57ca2",
+            "id": "73ff2232d7110a2d5f67733350340e34",
             "name": "Update an Integration",
             "url": "httpsapi.moltin.com\/\/v2\/integrations\/{integrationID}",
             "description": "Update an integration.",
@@ -446,11 +446,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "b93b349fab6db289afad37f817e0526b",
+            "id": "50e986e9800355821d6d3b832b72dd63",
             "name": "Delete an Integration",
             "url": "httpsapi.moltin.com\/\/v2\/integrations\/{integrationID}",
             "description": "Delete an integration.",
@@ -491,11 +491,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "9737b808ef4c36fced04d845d5f5ea4a",
+            "id": "f5700d53f0fe3076776e55c16ef112fe",
             "name": "Get a Brand",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/{brandID}",
             "description": "Get a brand.",
@@ -543,11 +543,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "fde5542be805c02bb2d6c266b420c783",
+            "id": "6dadb4dcce8a27df0c556bfc42096335",
             "name": "Update a Brand",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/{brandID}",
             "description": "Update a brand.",
@@ -595,11 +595,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "4bf25105f397e7c9eab1da4b57380f44",
+            "id": "07501181bba06f39384bd4ff57f88472",
             "name": "Delete a Brand",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/{brandID}",
             "description": "Delete a brand.",
@@ -640,11 +640,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "f66b1a755f9b25f2161547c8e97825fe",
+            "id": "417d5f16a803da65e1cee9312d83f7e4",
             "name": "Get all flows",
             "url": "httpsapi.moltin.com\/\/v2\/flows",
             "description": "Get all flows.",
@@ -678,11 +678,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "aa772a3a4e1ec4a8a7b19d80359ae949",
+            "id": "e10a8b91419d73b1e74d680baeaabb3e",
             "name": "Create a flow",
             "url": "httpsapi.moltin.com\/\/v2\/flows",
             "description": "Create a flow.",
@@ -723,11 +723,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "fecb4e2e3783f140efb6b48af607e4f5",
+            "id": "bdc107fcfd6d5a4938f39410200c80ab",
             "name": "Get a Customer",
             "url": "httpsapi.moltin.com\/\/v2\/customers\/{customerID}",
             "description": "Get a customer.",
@@ -775,11 +775,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "161d7ccb203c9f11712b6b9f1bdf6ca3",
+            "id": "b2aa3fefbfd4ba59435d2f0951a2feec",
             "name": "Update a Customer",
             "url": "httpsapi.moltin.com\/\/v2\/customers\/{customerID}",
             "description": "Update a customer.",
@@ -834,11 +834,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "4cc0541385be10b08548acda26afffce",
+            "id": "0848f1be92a5c355fe4ff843c23117e8",
             "name": "Delete a Customer",
             "url": "httpsapi.moltin.com\/\/v2\/customers\/{customerID}",
             "description": "Deletes a customer.",
@@ -886,11 +886,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "b5ab090409c6df08202c5e56a944345d",
+            "id": "9efa7fb6dffe5a7ebcf31404f725bfd9",
             "name": "Get an entry",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowSlug}\/entries\/{entryID}",
             "description": "Get an entry.",
@@ -938,11 +938,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "3b3a9d86889e8d4e2cde3e7fb1b368ed",
+            "id": "8bb7d9d9571c75df965862c4bc18f3a2",
             "name": "Update an entry",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowSlug}\/entries\/{entryID}",
             "description": "Update an entry.",
@@ -997,11 +997,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "ae345e4bdaf23fa0acd20b092d5d40fb",
+            "id": "c0a60bb54e9c34001bf237ca823701fa",
             "name": "Delete an entry",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowSlug}\/entries\/{entryID}",
             "description": "Delete an entry.",
@@ -1049,11 +1049,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "069638cba7240b6331d1c9c63bafe9f5",
+            "id": "917394dce4aea0373d7c8b79ac9ac98d",
             "name": "Get a single order",
             "url": "httpsapi.moltin.com\/\/v2\/orders\/{orderID}",
             "description": "Get a single order.",
@@ -1094,11 +1094,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "7f1e7a3244b67a01d0c55a95494aa02f",
+            "id": "efd16d6066f02619a2a7a8a0d9e07885",
             "name": "Update an order",
             "url": "httpsapi.moltin.com\/\/v2\/orders\/{orderID}",
             "description": "Transactions are created and updated automatically whenever you make a payment request. When a payment is successful, the transaction ID returned from the gateway will be attached to the transaction.\n\nIt is possible for an order to have more than one transaction attached as each attempted payment will be created as a new transaction.",
@@ -1146,11 +1146,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "e4fbbe6888bbcc4681471cc8bb25f001",
+            "id": "c7f59ce0197548307974ddcb57d59975",
             "name": "Update Product <=> Variations Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/variations",
             "description": "`Product Variation`'s specified in the payload willbe related to the `Product` any relatiosnhips to `Product Variation`'s **NOT** specified in payload will be removed.",
@@ -1191,11 +1191,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "b80081c3597b82e8c2b798e4c4f298bd",
+            "id": "9cfc347dc07c222fc408f7b9ab9f9fe3",
             "name": "Create Product <=> Variations Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/variations",
             "description": "Here you can add and remove `Product Variation`'s to a product. `Product Variation`'s specified in the payload willbe related to the product.",
@@ -1236,11 +1236,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "af5fc1eedcd3f7461cc4aeb4be54e994",
+            "id": "18bbb07f1b755ac8a497c1e443d3a205",
             "name": "Delete Product <=> Variations Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/variations",
             "description": "Here you can add and remove `Product Variation`'s to a product. Only relationships to `Product Variation`'s specified in the payload will be removed.",
@@ -1281,11 +1281,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "7ef5d2103d2118b78d91ea9836360cf5",
+            "id": "90fa7232d014c7546e2572a78ba6e03f",
             "name": "Update Parent Brand Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/{brandID}\/relationships\/parent",
             "description": "Update parent brand relationship.",
@@ -1326,11 +1326,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "0b37946b4dc9d073afef4a39f6cc8fb1",
+            "id": "aada7008a65346d9529b6e6ff2b747b8",
             "name": "Create Parent Brand Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/{brandID}\/relationships\/parent",
             "description": "Create parent brand relationship.",
@@ -1371,11 +1371,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d9f202dd7971240c9975d80e36dda99d",
+            "id": "d30ddbb4e47515acdc858f9b87dac095",
             "name": "Delete Parent Brand Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/{brandID}\/relationships\/parent",
             "description": "Delete parent brand relationship.",
@@ -1409,11 +1409,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "33116eecd88e5c2766e6b30ffa655691",
+            "id": "53e66387017cc210f0548a5444b152a0",
             "name": "Get a promotion",
             "url": "httpsapi.moltin.com\/\/v2\/promotions\/{promotionID}",
             "description": "Get a promotion.",
@@ -1447,11 +1447,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "c4cc8efc0a763e95e00e461de0916115",
+            "id": "fb188f6f1a270882a4b3904d3c3bf906",
             "name": "Update promotion",
             "url": "httpsapi.moltin.com\/\/v2\/promotions\/{promotionID}",
             "description": "Update promotion.",
@@ -1492,11 +1492,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "525141eae08fe1db7252b3a3f0742012",
+            "id": "b54f22e8977b4476e2c38174a8fa49dc",
             "name": "Delete Promotion",
             "url": "httpsapi.moltin.com\/\/v2\/promotions\/{promotionID}",
             "description": "Delete promotion.",
@@ -1537,11 +1537,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "a95358efac7ff9971217708c41aa20d8",
+            "id": "a5cd4a005e1a32497949b4580c9f37aa",
             "name": "Delete Cart",
             "url": "httpsapi.moltin.com\/\/v2\/carts\/{CART_REFERENCE} ",
             "description": "Update an existing item in a cart. The updated cart contents are returned if the call is successful.\n\n**Note:** `{item_id}` in the path is the identifier for the item in the cart **OR** productID.\n\nWhen updating custom itesm you must use the identifier in the cart - you can update more properties of a custom cart item.",
@@ -1582,11 +1582,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "82f8850c6d81270d59980386c7d2f609",
+            "id": "e4832e28ff82f557fe177c9b5b86ebe8",
             "name": "Get Settings Attributes",
             "url": "httpsapi.moltin.com\/\/v2\/settings",
             "description": "Get settings attributes.",
@@ -1620,11 +1620,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "432bc7cfea08e2946fb9db2c3501be54",
+            "id": "680b8504e5372dd1739350009b29df36",
             "name": "Update Settings",
             "url": "httpsapi.moltin.com\/\/v2\/settings",
             "description": "Update settings.",
@@ -1665,11 +1665,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "35860c809938702e457c1a309246b1a4",
+            "id": "2801070a3474fa4755610beeb35f3543",
             "name": "Get a Category",
             "url": "httpsapi.moltin.com\/\/v2\/categories\/{categoryID}",
             "description": "Get a category.",
@@ -1710,11 +1710,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "cb483c22c5192498d374b64bc3e584b9",
+            "id": "15fb4d5c541b289540764863b1a96a78",
             "name": "Update a Category",
             "url": "httpsapi.moltin.com\/\/v2\/categories\/{categoryID}",
             "description": "Update a category.",
@@ -1762,11 +1762,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "9a71333749453be9eeb270c578a999d9",
+            "id": "fecf6d512f944c38a955b0432d4fee00",
             "name": "Delete a Category",
             "url": "httpsapi.moltin.com\/\/v2\/categories\/{categoryID}",
             "description": "Delete a category.",
@@ -1807,11 +1807,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "9ef0e561af93a77a67d5f4a7fab5815e",
+            "id": "b83cf6010ce47489ab8b5181b4ec2e82",
             "name": "Get the items in a cart",
             "url": "httpsapi.moltin.com\/\/v2\/carts\/123456\/items",
             "description": "Get the items in a cart.",
@@ -1845,11 +1845,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "1cd534466ef638d19aff5f0a155444bb",
+            "id": "30141be97463d9ec017a76d9527c6f2d",
             "name": "Add a promotion to a cart",
             "url": "httpsapi.moltin.com\/\/v2\/carts\/123456\/items",
             "description": "Update an existing item in a cart. The updated cart contents are returned if the call is successful.\n\n**Note:** `{item_id}` in the path is the identifier for the item in the cart **OR** productID.\n\nWhen updating custom itesm you must use the identifier in the cart - you can update more properties of a custom cart item.",
@@ -1883,11 +1883,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "3d3704d045f24abfbc3388bc4c78adc6",
+            "id": "0bad6d7c4f3f8a2114b103cff27232d0",
             "name": "Update Products <=> Files Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/files",
             "description": "`File`'s specified in the payload willbe related to the product any relatiosnhips to `File`'s **NOT** specified in payload will be removed.",
@@ -1935,11 +1935,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "32eb110c784a5014676e7e58e117d032",
+            "id": "ba4c489966efa7968006103a0a6b7b23",
             "name": "Create Products <=> Files Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/files",
             "description": "Here you can add `File`'s to a product. `File`'s specified in the payload willbe related to the product.",
@@ -1987,11 +1987,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "481cae17f35f4067d2ce1d16649fd516",
+            "id": "b5458b653a8f65e8998e6421724aa88f",
             "name": "Delete Products <=> Files Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/files",
             "description": "Here you can delete a relationship between a `Product` and `File`'s. Only relationships to `File`'s specified in the payload will be removed.",
@@ -2039,11 +2039,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "f912f5cfefa329ca0bbb8b0c55ac04a9",
+            "id": "da4b7882ddd2d28e096911c198713aa7",
             "name": "Get Integration Attributes",
             "url": "httpsapi.moltin.com\/\/v2\/integrations\/attributes",
             "description": "Get integration attributes.",
@@ -2077,11 +2077,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "1c9c056838f0fd94101cf40c678e8566",
+            "id": "79fa687f1ada7e4ba9ceddbd48612cf9",
             "name": "Braintree - Update",
             "url": "httpsapi.moltin.com\/\/v2\/gateways\/braintree",
             "description": "This endpoint allows you to pay for an order using Braintree and a users credit card.",
@@ -2122,11 +2122,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "0f8cc0ba1bb259412403855123699219",
+            "id": "00500a61f1b9b488c513c6d142e4de83",
             "name": "Create Collection Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/{collectionID}\/relationships\/collections",
             "description": "Create collection relationships.",
@@ -2174,11 +2174,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "3972be3000f97290036ecf21cdfd6802",
+            "id": "f600cb23ee532c48a1c19ba0853f75e6",
             "name": "Get Logs for an Integration",
             "url": "httpsapi.moltin.com\/\/v2\/integrations\/{integrationID}\/logs",
             "description": "Get logs for an integration.",
@@ -2219,11 +2219,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d7766ea0607e2126462ac4dff14ac59c",
+            "id": "73340c785f957a9f0b36123bea1c5135",
             "name": "Update Child Category Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/categories\/{categoryID}\/relationships\/children",
             "description": "Update child category relationships.",
@@ -2271,11 +2271,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "5138a1258a82788ba0984e11d38bd6a2",
+            "id": "dfdbad96e154d74b4ae3f4bce7cc4087",
             "name": "Delete Child Category Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/categories\/{categoryID}\/relationships\/children",
             "description": "Delete child category relationships.",
@@ -2323,11 +2323,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "87888795fdae87754db856505774e7ae",
+            "id": "9851e3409b641591722e0c17dd586647",
             "name": "Get Collections List",
             "url": "httpsapi.moltin.com\/\/v2\/collections",
             "description": "Get collections list.",
@@ -2361,11 +2361,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "97407a7afb05d23bc1d9b6bd20ba95e3",
+            "id": "b5928478aaf83b13a83f030f258a5ed5",
             "name": "Create a Collection",
             "url": "httpsapi.moltin.com\/\/v2\/collections",
             "description": "Create a collection.",
@@ -2406,11 +2406,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "b4804b4b5ffb2ce02fccab1719d1dadb",
+            "id": "0a6144efdb97e605417f3e7bc0107b74",
             "name": "Create Child Category Relationships",
             "url": "httpsapi.moltin.com\/\/categories\/{categoryID}\/relationships\/children",
             "description": "Create child category relationships.",
@@ -2458,11 +2458,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "eecf1cd94d0567e36e582fcc15e489ac",
+            "id": "2c3c19efa6c4aa124fcb991f9ceca126",
             "name": "Get a Cart",
             "url": "httpsapi.moltin.com\/\/v2\/carts\/123456",
             "description": "Get a cart.",
@@ -2496,11 +2496,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "fc7defec1e7ed4b932e2b1effa80183f",
+            "id": "a257f8383abc797ec83b2949f8fbd7b4",
             "name": "Get a Collection",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/{collectionID}",
             "description": "Get a collection.",
@@ -2576,11 +2576,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "02a219cec6b42044d6e15e48eeb2339f",
+            "id": "e26f9d33ce2eea931c5c74848bcb43a6",
             "name": "Update a Collection",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/{collectionID}",
             "description": "Update a collection.",
@@ -2628,11 +2628,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "fa77e113378fc9d6d81378ea3d8ac36d",
+            "id": "7da40dfa5a327ccd625125b154969a9c",
             "name": "Delete a Collection",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/{collectionID}",
             "description": "Delete a collection.",
@@ -2673,11 +2673,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "e42e21accc924d6cc92276ef1148264a",
+            "id": "2da688fe4a75c4dfe25500b4c788a822",
             "name": "Get all stock",
             "url": "httpsapi.moltin.com\/\/v2\/inventories ",
             "description": "Get all stock.",
@@ -2696,11 +2696,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "f470e1909da692273fbc770c9478298b",
+            "id": "3d19156ec5e607ef0c5489997001fe68",
             "name": "Get a flow",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowID}",
             "description": "Get a flow.",
@@ -2741,11 +2741,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "e381799e0b2ac5e5bcd6a7aff8ab6cfc",
+            "id": "a3fb3e7ba69e06e05aa769fc4beb29c8",
             "name": "Update a flow",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowID}",
             "description": "Update a flow.",
@@ -2793,11 +2793,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "4ab6d30e99ecccf281c546bbbd239a6d",
+            "id": "7c00768126ea094b4290abf96a3b86df",
             "name": "Delete a flow",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowID}",
             "description": "Delete a flow.",
@@ -2838,11 +2838,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "1c2e81519f7598f9a467d604a5e508db",
+            "id": "c40e113bf314a32eda2fb3f0978211e2",
             "name": "Adyen - Card Update",
             "url": "httpsapi.moltin.com\/\/v2\/gateways\/adyen",
             "description": "This endpoint allows you to pay for an order using Braintree and a users credit card.",
@@ -2883,11 +2883,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "fd634c43417de64146ad5511d6035d73",
+            "id": "5556c212472011bf12042ffe7c5ebf64",
             "name": "Update an item in a cart",
             "url": "httpsapi.moltin.com\/\/v2\/carts\/123456\/items\/{itemID}",
             "description": "Update an existing item in a cart. The updated cart contents are returned if the call is successful.\n\n**Note:** `{item_id}` in the path is the identifier for the item in the cart **OR** productID.\n\nWhen updating custom itesm you must use the identifier in the cart - you can update more properties of a custom cart item.",
@@ -2935,11 +2935,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "132aeb8beafbdd1d635056a085e70d1c",
+            "id": "a3534481d769d77e70025a37bebb5e0e",
             "name": "Update Entry Relationship(s)",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowSlug}\/entries\/{ENTRY_ID}\/relationships\/{flowSlug}",
             "description": "Update entry relationship(s).",
@@ -2994,11 +2994,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "03e871285d9275834ba668aa7902e2ea",
+            "id": "365dc30fc0fb87f775e81cab9b595de1",
             "name": "Delete Entry Relationship(s)",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowSlug}\/entries\/{ENTRY_ID}\/relationships\/{flowSlug}",
             "description": "Delete entry relationship(s).",
@@ -3053,11 +3053,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d16f0f795e596aed7665b82ba5e3580d",
+            "id": "9250d1d6e3a00a970e746570b1fe461e",
             "name": "Stock transactions for a product",
             "url": "httpsapi.moltin.com\/\/v2\/inventories\/{productID}\/transactions",
             "description": "Stock transactions for a product.",
@@ -3084,11 +3084,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "7e8cb860fa4fb09466bda2e95a78f8ce",
+            "id": "5aca88153d50bab12459f7fc771005a9",
             "name": "Create a stock transaction for a product",
             "url": "httpsapi.moltin.com\/\/v2\/inventories\/{productID}\/transactions",
             "description": "Create a stock transaction for a product.",
@@ -3129,11 +3129,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "a2d62d63361c3f21d908ee8c5dd1d3ff",
+            "id": "9f7a4b6962b5dacb9f2bd2140c684c32",
             "name": "Get a Product",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}",
             "description": "Get a product.",
@@ -3174,11 +3174,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "a14a07388ac52f58744f7be1a87902e6",
+            "id": "67400c8bb2ea6894e30db1bcbc4393a4",
             "name": "Update a Product",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}",
             "description": "Update a product.",
@@ -3226,11 +3226,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "de73af522824967e7d8f2323a0a24fe1",
+            "id": "3f4e617814a35c6bae616776d3254974",
             "name": "Delete a Product",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}",
             "description": "Delete a product.",
@@ -3271,11 +3271,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d1ff54b3a0ff9d48d343b0d209e29699",
+            "id": "341af0acf8a64e801d8b800defca20c0",
             "name": "Update Product <=> Brands Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/brands",
             "description": "Here you can set relations `Brand`'s to a product. The result of this request will set relationships between product and the specified brnads in teh payload and remove any other relations the product had with brands.",
@@ -3323,11 +3323,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "5c8bd41a75c6627d170eebdb9e4502c3",
+            "id": "d3b247ee3a5df4696691dc9dea06b5d1",
             "name": "Create Product <=> Brands Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/brands",
             "description": "Here you can add `Brand`'s to a product. The `Brand`'s found in the payload will be added to any other relationships to `Brand`'s present.",
@@ -3375,11 +3375,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "29fa83cc3961036cdd75200aa9c70157",
+            "id": "75a60e940e8a7efe28afb04da8cef764",
             "name": "Delete Products <=> Brands Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/brands",
             "description": "Here you can delete a relationship between a `Product` and `Brand`'s. Only those relationshops to `Brand`'s specified in the paylaod will be removed.",
@@ -3427,11 +3427,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "4d5c46dfa67c7f71433a5e267e69704c",
+            "id": "300af89b1e5aa8efbee1b875f5d34019",
             "name": "Get a file",
             "url": "httpsapi.moltin.com\/\/v2\/files\/{fileID}",
             "description": "Get a file.",
@@ -3472,11 +3472,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "759cd05a530dc6a4096485d7c85db5d6",
+            "id": "9627e8fe3f7c822997bcb2c2029d5528",
             "name": "Delete a file",
             "url": "httpsapi.moltin.com\/\/v2\/files\/{fileID}",
             "description": "Delete a file.",
@@ -3517,11 +3517,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "4d9b29ecb49d61905e24b49ef2a1aeab",
+            "id": "4108d2e3cb4d6b6aa4ecbe4ce9853db8",
             "name": "Get a field list",
             "url": "httpsapi.moltin.com\/\/v2\/fields",
             "description": "Get a field list.",
@@ -3555,11 +3555,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "1abfc0726faf91ff9e3db9253a4ea8fa",
+            "id": "df16183201edc8107c2ddc15c2cae286",
             "name": "Create a field",
             "url": "httpsapi.moltin.com\/\/v2\/fields",
             "description": "Create a field.",
@@ -3600,11 +3600,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "8460762214d82346eee4bd306ec5257a",
+            "id": "282c34131d6ac146e36b5fe7ab895632",
             "name": "Update Child Brand Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/{brandID}\/relationships\/children",
             "description": "Update child brand relationship.",
@@ -3645,11 +3645,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d095d58f0af83a146076bb5949ba40f5",
+            "id": "6b62d87df1765d780fbfe3ad9470183b",
             "name": "Create Child Brand Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/{brandID}\/relationships\/children",
             "description": "Create child brand relationship.",
@@ -3690,11 +3690,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "36a305461f1e986ec211a4d622fb9522",
+            "id": "50d4008696bfadb6fee020994602c965",
             "name": "Update Child Brand Relationship Copy",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/{brandID}\/relationships\/children",
             "description": "Update child brand relationship copy.",
@@ -3728,11 +3728,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "ea5b64fe72113895c2698784befb6446",
+            "id": "924e689ea1c21a18d9c74a2bc2b95ef2",
             "name": "Update Parent Collection Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/{collectionID}\/relationships\/parent",
             "description": "Update parent collection relationship.",
@@ -3780,11 +3780,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d2e4e6fb23f223ca73b6c08b6c5ea69d",
+            "id": "37b18f568417d17f01555f2826074b7e",
             "name": "Create Parent Collection Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/{collectionID}\/relationships\/parent",
             "description": "Create parent collection relationship.",
@@ -3832,11 +3832,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "2717ed6d82f60a4d655e74f337715e10",
+            "id": "c82c58aec1a0a8c492eb022fb8ba2b2e",
             "name": "Delete Parent Collection Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/{collectionID}\/relationships\/parent",
             "description": "Delete parent collection relationship.",
@@ -3877,11 +3877,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "2c6fe0188a2de8506a898df50a70a63e",
+            "id": "5764db520fb1d84a1dc50f64c04e0458",
             "name": "Get a Product Variation",
             "url": "httpsapi.moltin.com\/\/v2\/variations\/{variationID}",
             "description": "Get a product variation.",
@@ -3922,11 +3922,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "a4cdd248d5fbc6d773025b21216a728a",
+            "id": "7c4bdaf3417df52f3a1bdf5ab1b5156e",
             "name": "Update a Product Variation",
             "url": "httpsapi.moltin.com\/\/v2\/variations\/{variationID}",
             "description": "Update a product variation.",
@@ -3974,11 +3974,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "2b1b16791ac8e72255d04079cfc47b9a",
+            "id": "8215a69e6bb78f46772392f6bf4dad2d",
             "name": "Delete a Product Variation",
             "url": "httpsapi.moltin.com\/\/v2\/variations\/{variationID}",
             "description": "Delete a product variation.",
@@ -4019,11 +4019,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "5a3622fa2004cac1fd6ae359a4fccb8c",
+            "id": "63d94b9c518f890881360e52fc562a0c",
             "name": "Get Customers List",
             "url": "httpsapi.moltin.com\/\/v2\/customers",
             "description": "Get customers list.",
@@ -4085,11 +4085,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "2010f1586ffb437f79f947bad5a5cf57",
+            "id": "ce38cfe07b75c9a28c8f7857a8764fb9",
             "name": "Create a Customer",
             "url": "httpsapi.moltin.com\/\/v2\/customers",
             "description": "Create a customer.",
@@ -4130,11 +4130,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d7c86bf2aa150117beba608147b58506",
+            "id": "29e060cc35db17741b4f4e86989cb2fa",
             "name": "Build Child Products",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/build",
             "description": "Build child products.",
@@ -4182,11 +4182,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "6c6eab192559c29e1004b302b8cc7e8d",
+            "id": "a9807a50ee3d75c3cae470a37aa30bd6",
             "name": "Client credential token",
             "url": "httpsapi.moltin.com\/\/oauth\/access_token",
             "description": "An access token will allow you to make requests for your store. We support two types of token: `client_credentials` and `implicit`.\n\nAn `implcit` token is typically used for situations where you are requesting data on the client side and you are exposing your public key - such as JavaScript - and adding your client secret would be disastrous. You will only be able to perform a limited number of operations on the API endpoints.\n\nA `client_credentials` token is used when the credentials are not pu",
@@ -4241,11 +4241,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "fc2df819636050952c524305fa7379aa",
+            "id": "f15168f8726badf6d65ab6aad72741e5",
             "name": "Get Collection tree",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/tree",
             "description": "Get collection tree.",
@@ -4279,11 +4279,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d43abb8aa8b88faf800d30c036c0fb1f",
+            "id": "c396d1bd2e8af0016b37a100494d1a6b",
             "name": "Create Products <=> Main Image Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{ProductID}relationships\/brands",
             "description": "Here you can add a `Main Image` to a product. The `Main Image` will be a file and that file will be shown as the first image for the product it is related to.\n\nIt's worth noting that you can only have 1 main image so unlike other relationships, you will be passing an object instead of an array in the body.\n\nIn the Object, the type will be `main_image` and the ID will be the ID of the file you wish to make the main image for that product.",
@@ -4331,11 +4331,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d8ab98f629aa7e79ecb8db0a082c57eb",
+            "id": "07af8778c5aa8199f76ff1baac1ef871",
             "name": "Delete Products <=> Main Image Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{ProductID}relationships\/brands",
             "description": "Here you can delete the `Main Image` from a product.\n\nIn the Object payload, the type will be `main_image` and the ID will be the ID of the main image you wish to delete from that product.",
@@ -4376,11 +4376,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "e728fc86a3ee4a24cdadf1982681aeb6",
+            "id": "af23d36a523d74dee3a727ea8ec2d181",
             "name": "Get all entries on a flow",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowSlug}\/entries",
             "description": "Get all entries on a flow.",
@@ -4421,11 +4421,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "882053a49230fd296d9d7ad20ac66db7",
+            "id": "a19ed35ba995708931aff0b9c7e62b60",
             "name": "Create an entry",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowSlug}\/entries",
             "description": "Create an entry.",
@@ -4473,11 +4473,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "48f53895d89eded18356bd16d60d2178",
+            "id": "d46268e18be00047036dc58f0d6bba18",
             "name": "Get a field",
             "url": "httpsapi.moltin.com\/\/v2\/fields\/{fieldID}",
             "description": "Get a field.",
@@ -4518,11 +4518,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d66bed7207b551e3c51d6163f818f4a7",
+            "id": "8ab548dd4848531e21115a88968ee03a",
             "name": "Update a field",
             "url": "httpsapi.moltin.com\/\/v2\/fields\/{fieldID}",
             "description": "Update a field.",
@@ -4570,11 +4570,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "967c958de95392d2cd5e111cd071a89d",
+            "id": "ca1e44bbba2ebc1c1c628d3805c631fd",
             "name": "Delete a field",
             "url": "httpsapi.moltin.com\/\/v2\/fields\/{fieldID}",
             "description": "Delete a field.",
@@ -4615,11 +4615,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "149ebd488247c9421afcb52cfcef3cf7",
+            "id": "7187341160b88c9f088c6ddb6e02cd69",
             "name": "Checkout using customer id",
             "url": "httpsapi.moltin.com\/\/v2\/carts\/123456\/checkout",
             "description": "Converts a cart to an incomplete order. The original cart will remain and can be modified and checked out again if required.\n\nThe new order will be returned and `data.meta.payment_gateways` will contain an array of the available payment gateways for this order.",
@@ -4660,11 +4660,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "f8e7e9069a78f04262c4018d4a92d7bb",
+            "id": "bc59ec129afbe4bb2caac8a3cb40f114",
             "name": "Update Product <=> Categories Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/categories",
             "description": "Here you can update `Categories` to a product. `Categories` specified in the payload willbe related to the product any relatiosnhips to `Categories` **NOT** specified in payload will be removed.",
@@ -4705,11 +4705,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "2c974dc33cc8e9bb9c786778df9d2abc",
+            "id": "14fff0e8de108b43a14d6552eeb6fe02",
             "name": "Create Product <=> Categories Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/categories",
             "description": "Here you can add `Categories` to a product. `Categories` specified in the payload willbe related to the product.",
@@ -4757,11 +4757,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d1b4472757e75ed53f48f8ea69e335d9",
+            "id": "f98b0142b279227541c5feea66a2b6ef",
             "name": "Delete Product <=> Categories Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/categories",
             "description": "Here you can delete a relationship between a `Product` and `Category`. Only relationships to `Categories` specified in the payload will be removed.",
@@ -4809,11 +4809,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "3718597c2ba5d66c11cd8553af6eff28",
+            "id": "6732c8f7db540ed0f0f77c0742489ebe",
             "name": "Get Product Variations List",
             "url": "httpsapi.moltin.com\/\/v2\/variations",
             "description": "Get product variations list.",
@@ -4847,11 +4847,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "4d7ad482dc9dfd76e8f82bd7b767f5a8",
+            "id": "8521496e4580132f842c7c068ac1f186",
             "name": "Create a Product Variation",
             "url": "httpsapi.moltin.com\/\/v2\/variations",
             "description": "Create a product variation.",
@@ -4892,11 +4892,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "7e7a96d2570228835c88e3b8e04dd22b",
+            "id": "a6ee34f6a761fc8690b941a0dd884570",
             "name": "Get a Brand tree",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/tree",
             "description": "Get a brand tree.",
@@ -4930,11 +4930,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "5544bff1ee6ae86b388725baa15fd0fa",
+            "id": "af158ceaa69eaec6c9fc38b91cb5e831",
             "name": "Get all fields on a flow",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowSlug}\/fields",
             "description": "Get all fields on a flow.",
@@ -4975,11 +4975,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "1678db42864d8bc9feb43d2e6a0a6481",
+            "id": "1a94caea21010904684dcc618970ec48",
             "name": "Get Currencies List",
             "url": "httpsapi.moltin.com\/\/v2\/currencies",
             "description": "Get currencies list.",
@@ -5013,11 +5013,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "321f53077c78b0856ba78bacfab9fc5a",
+            "id": "0397055d38f4ba6d38b10fbd8f6fee2e",
             "name": "Create a Currency",
             "url": "httpsapi.moltin.com\/\/v2\/currencies",
             "description": "Create a currency.",
@@ -5058,11 +5058,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "8c487780037eec2670924ddcc911e96c",
+            "id": "85ff54b024c3628b231e04d4ed6534e7",
             "name": "Update Products <=> Collections Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/collections",
             "description": "`Collection`'s specified in the payload willbe related to the product any relatiosnhips to `Collection`'s **NOT** specified in payload will be removed.",
@@ -5110,11 +5110,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "31a7a8cd547bd83cfc613e5dc3a37de9",
+            "id": "5ce167e6dd5e91ffd15a3cfc0abf8020",
             "name": "Create Products <=> Collections Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/collections",
             "description": "Here you can add `Collection`'s to a product. `Collection`'s specified in the payload willbe related to the product.",
@@ -5162,11 +5162,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "aa21f2740837fca340e9c96dc906e0c7",
+            "id": "a0a368ddc623378c6486a7cc013f62d1",
             "name": "Delete Products <=> Collections Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/products\/{productID}\/relationships\/collections",
             "description": "Here you can delete a relationship between a `Product` and `Collections`. Only relationships to `Collections` specified in the payload will be removed.",
@@ -5214,11 +5214,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "2c71cbffdd21b993a09d55aa1c9dc16f",
+            "id": "cbf62a2cd8c15098dc7c5fd59f7fb06a",
             "name": "Get a Currency",
             "url": "httpsapi.moltin.com\/\/v2\/currencies\/{currencyID}",
             "description": "Get a currency.",
@@ -5259,11 +5259,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "06c099975b0dd52161a58672d2639193",
+            "id": "ba3b1dd1c99558af03b51beccd522141",
             "name": "Update a Currency",
             "url": "httpsapi.moltin.com\/\/v2\/currencies\/{currencyID}",
             "description": "Update a currency.",
@@ -5311,11 +5311,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "fa5d0691bfe5d7fa683e49433a976ab7",
+            "id": "ec5fdd27e1ba1cbaa391c28e46db2d8f",
             "name": "Delete a Currency",
             "url": "httpsapi.moltin.com\/\/v2\/currencies\/{currencyID}",
             "description": "Delete a currency.",
@@ -5356,11 +5356,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "e3d0dfd5d3f8502849217f077b3b266f",
+            "id": "f0759857cf0a022850236d868faac98b",
             "name": "Update a Product Variation Option",
             "url": "httpsapi.moltin.com\/\/v2\/variations\/{variationID}\/options\/{optionID}",
             "description": "Update a product variation option.",
@@ -5415,11 +5415,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "6f6e846bc47485803d1923e37b099178",
+            "id": "fbe62c21addeb07d0d5e020e4a511b30",
             "name": "Delete a Product Variation Option",
             "url": "httpsapi.moltin.com\/\/v2\/variations\/{variationID}\/options\/{optionID}",
             "description": "Delete a product variation option.",
@@ -5467,11 +5467,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "2513c0bf09f00e83a66a92986276f918",
+            "id": "9968a84ccd4e6539320b4953cb558a3f",
             "name": "Update Parent Category Parent",
             "url": "httpsapi.moltin.com\/\/v2\/categories\/{parentCatID}\/relationships\/parent",
             "description": "Update parent category parent.",
@@ -5519,11 +5519,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "e8ab56b67cbf35bfdffba16f9db0eef7",
+            "id": "0c2d549fb56e8a7b51caeeb08f401a38",
             "name": "Get a list of gateways",
             "url": "httpsapi.moltin.com\/\/v2\/gateways",
             "description": "This endpoint allows you to pay for an order using Braintree and a users credit card.",
@@ -5557,11 +5557,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "a4cb2a9d45a046fcba63e6ffc33db2d0",
+            "id": "c4ba4feeb3a4268d6595e747ad645519",
             "name": "Update Product Modifier",
             "url": "httpsapi.moltin.com\/\/v2\/variations\/{variationID}\/options\/{optionID}\/modifiers\/{modifierID}",
             "description": "Update product modifier.",
@@ -5623,11 +5623,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "674aaca00528cc617c19156db6326ead",
+            "id": "58b27b501a6db3821cd63401f4d3eecf",
             "name": "Delete Product Modifier",
             "url": "httpsapi.moltin.com\/\/v2\/variations\/{variationID}\/options\/{optionID}\/modifiers\/{modifierID}",
             "description": "Delete product modifier.",
@@ -5682,11 +5682,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "fab50c7b0828225fe8b562f9b6f72993",
+            "id": "8d79e4f797f443962b5657c4a7baa62a",
             "name": "Delete Category-Category Relationships",
             "url": "httpsapi.moltin.com\/\/categories\/{categoryID}\/relationships\/categories",
             "description": "Delete category-category relationships.",
@@ -5734,11 +5734,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "761929fff9790a9f31feea70fc1e93b4",
+            "id": "01d9f3cb2572c9c10c79f2a5b30df7a5",
             "name": "Create Product Modifier",
             "url": "httpsapi.moltin.com\/\/v2\/variations\/{variationID}\/options\/{optionID}\/modifiers",
             "description": "Create product modifier.",
@@ -5793,11 +5793,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "08fea3459440b509917b5d26d07ea169",
+            "id": "1483b14dcb157438c9a8b737cdb082e5",
             "name": "Get Brand Attributes",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/attributes",
             "description": "Get brand attributes.",
@@ -5831,11 +5831,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "686bb9469c34b1f8aec83ffbcdb13f99",
+            "id": "9b4062662d2e643cfac83622070b41a7",
             "name": "Get a gateway (stripe)",
             "url": "httpsapi.moltin.com\/\/v2\/gateways\/stripe",
             "description": "This endpoint allows you to pay for an order using Braintree and a users credit card.",
@@ -5869,11 +5869,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "72f7e09282d75f0a1819906953736c57",
+            "id": "b11d24c242e01b34aa959cffbdacb33e",
             "name": "Update Child Collection Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/{collectionID}\/relationships\/children",
             "description": "Update child collection relationship.",
@@ -5921,11 +5921,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d7448f115090673c1d7203faf7acb658",
+            "id": "f06d959a5cab552777b24fb02de8c28a",
             "name": "Create Child Collection Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/{collectionID}\/relationships\/children",
             "description": "Create child collection relationships.",
@@ -5973,11 +5973,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "6a7a2f1316c205b3448f442084cdf23b",
+            "id": "9b98982d981b9118eb0b64e1b623b8cf",
             "name": "Delete Child Collection Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/collections\/{collectionID}\/relationships\/children",
             "description": "Delete child collection relationship.",
@@ -6018,11 +6018,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "7de589e846727bbf63976a3fc32d0016",
+            "id": "1b8ae450d9c9f15c68efd8fceb700ac8",
             "name": "Create Parent Category Relationship",
             "url": "httpsapi.moltin.com\/\/v2\/categories\/{categoryID}\/relationships\/categories",
             "description": "Using this endpoint you can create a relationship between a category and a parent category. When returning the category tree, you will see this relationship in place.",
@@ -6070,11 +6070,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "d369d1c75e6ec67f69483ec0ec463466",
+            "id": "333207cb6adb6f56c67e4fdde408bb97",
             "name": "Delete an item from a cart",
             "url": "httpsapi.moltin.com\/\/v2\/carts\/123456\/items\/{cartItemID}",
             "description": "Delete an item from a cart. The remaining cart contents are returned on a successful delete.\n\n**Note:** `{item_id}` in the path is the identifier for the item in the cart rather than the product_id",
@@ -6115,11 +6115,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "e461dd43f81c7027b336caba893be03d",
+            "id": "601d5aa39dc4bbfeef69e7976bf1d3b6",
             "name": "Get Order Items",
             "url": "httpsapi.moltin.com\/\/orders\/{orderID}\/items",
             "description": "Get order items.",
@@ -6160,11 +6160,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "e077c7f6df49af9dd5bf2292db2f8b4f",
+            "id": "1a41ba8a25f5a1f127c5b6a115114536",
             "name": "Get stock for a product",
             "url": "httpsapi.moltin.com\/\/v2\/inventories\/{productID}",
             "description": "Get stock for a product.",
@@ -6191,11 +6191,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "0ba452f2c603872504a87ee92610899f",
+            "id": "6fca0835e124a94daa2670e63dc8c285",
             "name": "Get all Jobs for an Integration",
             "url": "httpsapi.moltin.com\/\/v2\/integrations\/{integrationID}\/jobs",
             "description": "Get all jobs for an integration.",
@@ -6236,11 +6236,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "0d8ed42d43c74cdc0927c5755dc098f8",
+            "id": "59e5d7b6930a7cd7eacb74530760cb2f",
             "name": "Get Logs for a Job",
             "url": "httpsapi.moltin.com\/\/v2\/integrations\/{integrationID}\/jobs\/{integrationJobID}\/logs",
             "description": "Get logs for a job.",
@@ -6288,11 +6288,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "4cb2a9ea735b3841c1254a25d1480678",
+            "id": "ab0ce5a33027a8f8ec0b5d0b6575cae8",
             "name": "Get Integrations list",
             "url": "httpsapi.moltin.com\/\/v2\/integrations",
             "description": "Get integrations list.",
@@ -6326,11 +6326,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "345f7e24a148501115f86d1689f11b34",
+            "id": "4e2c5c219a14feac3b58d6091ae22717",
             "name": "Create an Integration",
             "url": "httpsapi.moltin.com\/\/v2\/integrations",
             "description": "Create an integration.",
@@ -6371,11 +6371,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "2c34cecaf2d476eaf44b63db546f12f1",
+            "id": "ce3edd2ece17a52a568690b11698fcb2",
             "name": "Capture an authorize",
             "url": "httpsapi.moltin.com\/\/v2\/orders\/{orderID}\/transactions\/{TransactionID}\/capture",
             "description": "Capture an authorize.",
@@ -6416,11 +6416,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "888ba8667cde60b73be74990f8f413af",
+            "id": "5e0ce6c6ea952210c82b79f3dd2a7465",
             "name": "Get Category Attributes",
             "url": "httpsapi.moltin.com\/\/categories\/attributes",
             "description": "Get category attributes.",
@@ -6454,11 +6454,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "6f105aa07c62c71898df86e674ec89aa",
+            "id": "67fb55b93a4ef4c66e83fc7a2cb36cb0",
             "name": "Get Product Attributes",
             "url": "httpsapi.moltin.com\/\/v2\/products\/attributes",
             "description": "Get product attributes.",
@@ -6492,11 +6492,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "457304579b27a657d571d8083c508d2c",
+            "id": "fbf53d1fe4a633d6f0c32dbf96b7056c",
             "name": "Stripe - Card Update",
             "url": "httpsapi.moltin.com\/\/v2\/orders\/{ORDER_ID}\/transactions\/{TRANSACTION_ID}\/capture",
             "description": "This endpoint allows you to pay for an order using Braintree and a users credit card.",
@@ -6551,11 +6551,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "a2dd60e4786da4067ef1f585e95f2a64",
+            "id": "b35bccec220fc2f098b134f6b307d452",
             "name": "Delete Parent Category Parent",
             "url": "httpsapi.moltin.com\/\/v2\/categories\/{categoryID}\/relationships\/parent",
             "description": "Delete parent category parent.",
@@ -6596,11 +6596,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "1795c3cba288a538f6d9f9a768be26eb",
+            "id": "896fd9b2281eb952892339742aff1b1f",
             "name": "Get all files",
             "url": "httpsapi.moltin.com\/\/v2\/files",
             "description": "Get all files.",
@@ -6662,11 +6662,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "5c3f16f9760ba02138d92ca560a6f41d",
+            "id": "724ac2e1f721a77a35ca6c23b299f121",
             "name": "Create a file",
             "url": "httpsapi.moltin.com\/\/v2\/files",
             "description": "Create a file.",
@@ -6700,11 +6700,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "050e59b9a8e10506833a1227c2c10e66",
+            "id": "1072259f4693df47720d15be226dcefa",
             "name": "Get Categories List",
             "url": "httpsapi.moltin.com\/\/v2\/categories",
             "description": "Get categories list.",
@@ -6738,11 +6738,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "396ada28813b86484416f9565761facb",
+            "id": "3bef4bc512051f12facb961ff92a4fc3",
             "name": "Create a Category",
             "url": "httpsapi.moltin.com\/\/v2\/categories",
             "description": "Create a category.",
@@ -6783,11 +6783,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "079d5b03eecd0df029876f9b556ac355",
+            "id": "e54b0f09e2eccf753b74e4d32d4b65d1",
             "name": "Category Tree",
             "url": "httpsapi.moltin.com\/\/v2\/categories\/categories\/tree",
             "description": "Category tree.",
@@ -6821,11 +6821,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "a6d5affe1598cf92cdf71d2138d87655",
+            "id": "597d1f660d6c47d10166900aecd68774",
             "name": "Delete a Cart",
             "url": "httpsapi.moltin.com\/\/carts\/{cartRef}",
             "description": "Removes all items in a cart.",
@@ -6866,11 +6866,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "722a99af8308222a923380769b980844",
+            "id": "89db48758aa7f2cf314a63cecf512c13",
             "name": "Get all Logs",
             "url": "httpsapi.moltin.com\/\/v2\/integrations\/logs",
             "description": "Get all logs.",
@@ -6904,11 +6904,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "bda8bbc07ebebffea218999d30918597",
+            "id": "d05797583e32a18e7c11fb942a1eabdf",
             "name": "Get a list of Brands",
             "url": "httpsapi.moltin.com\/\/v2\/brands",
             "description": "Get a list of brands.",
@@ -6942,11 +6942,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "4b08700c5e4c3d420fefd66ad08a2ef5",
+            "id": "d6f4d10fb24c5c3cac623b758d0bb226",
             "name": "Create a Brand",
             "url": "httpsapi.moltin.com\/\/v2\/brands",
             "description": "Create a brand.",
@@ -6987,11 +6987,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "fed2b73a5aa04e91077a5fabe00b7747",
+            "id": "f51f0fd9e1d10369158ef470fbe6a37a",
             "name": "Get a list of promotions",
             "url": "httpsapi.moltin.com\/\/v2\/promotions",
             "description": "Get a list of promotions.",
@@ -7018,11 +7018,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "4a2a90b0205769981219d9d065da38c5",
+            "id": "7afbcdb4fa77d25123ec2c49b3dae807",
             "name": "Create a promotion",
             "url": "httpsapi.moltin.com\/\/v2\/promotions",
             "description": "Create a promotion.",
@@ -7056,11 +7056,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "b09b869ac2db58adeb8ec5a1f3acab8b",
+            "id": "48f1f517fcbc7e4ed318d90e26380067",
             "name": "Generate a customer token",
             "url": "httpsapi.moltin.com\/\/v2\/customers\/tokens ",
             "description": "Generate a customer token.",
@@ -7101,11 +7101,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "e431943834e10f59cedc0b8830bf9613",
+            "id": "afc3045ffb01d9998a75644c8c715369",
             "name": "Create Brand Relationships",
             "url": "httpsapi.moltin.com\/\/v2\/brands\/{brandID}\/relationships\/brands",
             "description": "Create brand relationships.",
@@ -7146,11 +7146,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "94cc276b1abb1664c17bc02989505f71",
+            "id": "2de147b191789a8c7911f3bf182028b6",
             "name": "Get Products List",
             "url": "httpsapi.moltin.com\/\/v2\/products",
             "description": "Get products list.",
@@ -7219,11 +7219,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "f841993bfc79622a505b241a7dcb2efa",
+            "id": "bb711d211573c2fe13c39bb4f46498c4",
             "name": "Create a new Product",
             "url": "httpsapi.moltin.com\/\/v2\/products",
             "description": "Create a new product.",
@@ -7264,11 +7264,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "74442ca39d14678d9ddae442720b95c1",
+            "id": "c56990cb1147eac0683dfb740ff32d1c",
             "name": "Create Entry Relationship(s)",
             "url": "httpsapi.moltin.com\/\/v2\/flows\/{flowSlug}\/entries\/{entryID}\/relationships\/{fieldSlug}",
             "description": "Create entry relationship(s).",
@@ -7330,11 +7330,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "0153d1e65df40e0ff7773ebbdf63c374",
+            "id": "064b3afc7d98e3fb8c40d210e97a8371",
             "name": "Get Categories Tree",
             "url": "httpsapi.moltin.com\/\/v2\/categories\/tree",
             "description": "Get categories tree.",
@@ -7368,11 +7368,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "9f9403c2145b3e24d496652ab3747766",
+            "id": "6d6a2a6298b6425ea17bc3ff94a383c3",
             "name": "Create a Product Variation Option",
             "url": "httpsapi.moltin.com\/\/v2\/variations\/{variationID}\/options",
             "description": "Create a product variation option.",
@@ -7420,11 +7420,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         },
         {
-            "id": "3a400bdcf2a1296ab4ecba7c51ae0522",
+            "id": "ff49b3291d961eaa0a331e0270309286",
             "name": "Get all orders",
             "url": "httpsapi.moltin.com\/\/v2\/orders",
             "description": "Get all orders.",
@@ -7458,7 +7458,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3d60f3cdb3f9ffa785503413c89b64b6",
+            "collectionId": "0f89f90be351f6feeca59a49dda8e0e8",
             "rawModeData": ""
         }
     ]
